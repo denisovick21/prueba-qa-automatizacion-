@@ -1,0 +1,14 @@
+
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node", "@playwright/test"],
+    "noEmit": true
+  },
+  "include": ["pages/**/*.ts", "tests/**/*.ts"]
+}
