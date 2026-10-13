@@ -17,7 +17,8 @@ prueba-qa-automatizacion/
 │   └── NoMatches.ts        # Clase que contiene localizadores cuando no hay ningun elemento de la busqueda
 │
 ├── tests/                  # Archivos de pruebas (.spec.ts)
-│   └── cp01-flujo-tienda.spec.ts
+│   └── cp01-busqueda-carrito.spec.ts //se dificulto el limpiar cache en cada iteracion o intentar crear un flujo de limpieza previa del carrito para que no sumara los de la iteración previa
+│   └── cp02-no se completo caso por falta de tiempo
 │   └── cp03-busqueda-sin-resultado.spec.ts
 │   └── cp04-login.spec.ts
 │
